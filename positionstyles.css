@@ -4,6 +4,10 @@
         
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+*{
+    box-sizing: border-box
+    
+}
     .red1 { 
     display: inline-block;
     width: 100px; 
@@ -77,13 +81,13 @@
      } 
     .blue3 {
         margin-top: 10px;
-    width: 600px;
+    width: 100%px;
     height: 100px; 
     background-color: blue; 
      } 
      /* Activity 4 styles */ 
     .red4 {
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: red; 
      } 
@@ -101,13 +105,13 @@
      } 
     .blue4 {
     clear: both;
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: blue; 
      } 
      /* Activity 5 styles */ 
     .red5 { 
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: red; 
      } 
@@ -131,13 +135,13 @@
     .blue5 {
     margin-top: 60px;
     clear:both;
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: blue; 
      } 
      /* Activity 6 styles */ 
     .red6 {
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: red; 
     } 
@@ -146,13 +150,16 @@
     width: 200px; 
     height: 200px; 
     background-color: green; 
+    margin: 15PX;
      } 
     .yellow6 {
-    width: 600px;  
+    width: 100%px;  
     background-color: yellow; 
+    padding: 15PX;
     } 
+    
     .blue6 {
-    width: 600px; 
+    width: 100%px; 
     height: 100px; 
     background-color: blue; 
     } 
