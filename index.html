@@ -13,6 +13,9 @@
         body {
             font-family: Arial, Helvetica,sans-serif;
         }
+         
+          
+        
         .content {
             width: 80%;
             max-width: 960px;
@@ -20,13 +23,19 @@
             display:flex;
             flex-flow: row wrap;
             justify-content: space-around;
-            align-content: 
+            align-content: ;
+            
         }
+/*
+        img { 
+          object-fit: contain;
+        }
+*/
         
         nav {
             color: aqua;
             background-color: #145f21;
-           padding:15px;
+            padding:15px;
             margin-bottom: px
              
             
@@ -35,10 +44,16 @@
         #top-row {
             
              padding:15px;
+            width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
             
         }
         #middle-row {
              padding:15px;
+            width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
         }
         li {
             color: yellow;
@@ -73,17 +88,65 @@
         .secound-pg {
             color: #7d491a;
         }
+        /*why is this code not working? */
         #copy-right {
-            
+            float: ; 
+            display: inline-block;
+          
         }
+        
+        
+        div.img_width img {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-box-orient: horizontal; 
+            -moz-box-orient: horizontal;
+            box-orient: horizontal;
+            flex-direction: row;
+
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            box-pack: center;
+            justify-content: center;
+
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            box-align: center;  
+            align-items: center;
+            
+            
+            -webkit-box-flex: 1;
+            -moz-box-flex: 1;
+            box-flex: 1;
+            -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 10px;
+            border: solid 10px red;
+            text-align: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            box-sizing: content-box;
+            
+            margin: auto;
+            width: 80%;
+            max-width: 1000px;
+            max-height:100%
+        }
+        
     </style>
 </head>
 
 <body>
     <div class="content">
         <!--w3school.com lots of rules for HTTP-->
-
-        <img src="./images/Logo.png" alt="dry oar boating trip">
+        <div class="img_width">
+            <img src="./images/Logo.png" alt="dry oar boating trip">
+        </div>
         <nav>
             <h1> White Water Rafting</h1>
             <ul>
@@ -97,7 +160,10 @@
 
             <h2>Enjoy the Beautiful View </h2>
             <p>Here in Whate Water business, we believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-            <img src="http://brothert.net/dryoar/images/littlecolorado-wide.jpg" alt="beautiful river">
+            <div class="img_width">
+                <img src="http://brothert.net/dryoar/images/littlecolorado-wide.jpg" alt="beautiful river">
+            </div>
+        
         </section>
         <section id="middle-row">
             <!--this is my comment-->
